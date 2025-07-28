@@ -1,75 +1,77 @@
-.bg-gradient-pinkblue {
-  background: linear-gradient(135deg, #7f00ff, #ff007f);
-  color: #f0e7f9; 
-}
-
+/* Gradient background: soft pink to lavender */
+.bg-gradient-pinkblue,
 .hero-section {
-  background: linear-gradient(135deg, #7f00ff, #ff007f);
-  color: #f0e7f9;
+  background: linear-gradient(135deg, #f7c1e0, #cdb4f6);
+  color: #3d2b52;
 }
 
+/* Navbar: dark soft purple */
 .navbar-dark {
-  background: #1a1a2e; 
+  background: #2e1a47;
 }
 .navbar-dark .navbar-brand,
 .navbar-dark .nav-link {
-  color: #ff77aa;
+  color: #f9d6ea;
   transition: color 0.3s ease;
 }
 .navbar-dark .nav-link:hover,
 .navbar-dark .nav-link.active {
-  color: #ff4d94;
+  color: #ffc0df;
 }
 
+/* Buttons: pink-outline with hover */
 .btn-outline-primary {
-  color: #ff77aa;
-  border-color: #ff77aa;
+  color: #ffaad4;
+  border-color: #ffaad4;
   transition: all 0.3s ease;
 }
 .btn-outline-primary:hover {
-  background-color: #ff4d94;
+  background-color: #ff91c1;
   color: #fff;
-  border-color: #ff4d94;
+  border-color: #ff91c1;
 }
 
+/* Card: lavender background */
 .card {
-  background-color: #2e2e3a;
-  color: #f0e7f9;
+  background-color: #f3e9fc;
+  color: #3d2b52;
   border: none;
-  box-shadow: 0 4px 6px rgba(255, 77, 148, 0.3);
+  box-shadow: 0 4px 6px rgba(207, 145, 255, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 15px 25px rgba(255, 77, 148, 0.6);
+  box-shadow: 0 15px 25px rgba(207, 145, 255, 0.5);
 }
 
+/* Profile image: subtle shadow */
 .profil-img {
   width: 160px;
   height: auto;
   object-fit: contain;
-  box-shadow: 0 5px 20px rgba(255, 77, 148, 0.6);
-  border-radius: 0;
+  box-shadow: 0 5px 20px rgba(255, 161, 216, 0.5);
+  border-radius: 12px;
   transition: box-shadow 0.3s ease;
 }
 .profil-img:hover {
-  box-shadow: 0 8px 30px rgba(255, 77, 148, 0.9);
+  box-shadow: 0 8px 30px rgba(255, 161, 216, 0.8);
 }
 
+/* Sections */
 #about, #contact {
-  background-color: #1a1a2e;
-  color: #3d3941;
+  background-color: #fef6fb;
+  color: #5a4b68;
 }
 
+/* Headings & Text */
 h1, h2, h5 {
-  color: #ff77aa;
+  color: #ce77c1;
 }
 p, .lead {
-  color: #6e336e;
+  color: #806f9b;
 }
 
-
-/* nnn */
+/* Image Slider */
 .slider-fade {
   position: relative;
   width: 100%;
@@ -104,5 +106,3 @@ p, .lead {
   35%  { opacity: 0; }
   100% { opacity: 0; }
 }
-
-
