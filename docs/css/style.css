@@ -1,74 +1,75 @@
 .bg-gradient-pinkblue {
-  background: linear-gradient(135deg, var(--pink), var(--pink-light));
-  color: var(--text-main); 
+  background: linear-gradient(135deg, #7f00ff, #ff007f);
+  color: #f0e7f9; 
 }
 
 .hero-section {
-  background: linear-gradient(135deg, var(--pink), var(--pink-light));
-  color: var(--text-main);
+  background: linear-gradient(135deg, #7f00ff, #ff007f);
+  color: #f0e7f9;
 }
 
 .navbar-dark {
-  background: var(--dark-bg);
+  background: #1a1a2e; 
 }
 .navbar-dark .navbar-brand,
 .navbar-dark .nav-link {
-  color: var(--pink);
+  color: #ff77aa;
   transition: color 0.3s ease;
 }
 .navbar-dark .nav-link:hover,
 .navbar-dark .nav-link.active {
-  color: var(--red);
+  color: #ff4d94;
 }
 
 .btn-outline-primary {
-  color: var(--pink);
-  border-color: var(--pink);
+  color: #ff77aa;
+  border-color: #ff77aa;
   transition: all 0.3s ease;
 }
 .btn-outline-primary:hover {
-  background-color: var(--red);
+  background-color: #ff4d94;
   color: #fff;
-  border-color: var(--red);
+  border-color: #ff4d94;
 }
 
 .card {
-  background-color: var(--card-bg);
-  color: var(--text-main);
+  background-color: #2e2e3a;
+  color: #f0e7f9;
   border: none;
-  box-shadow: 0 4px 6px rgba(249, 121, 170, 0.3);
+  box-shadow: 0 4px 6px rgba(255, 77, 148, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 15px 25px rgba(249, 121, 170, 0.6);
+  box-shadow: 0 15px 25px rgba(255, 77, 148, 0.6);
 }
 
 .profil-img {
   width: 160px;
   height: auto;
   object-fit: contain;
-  box-shadow: 0 5px 20px rgba(249, 121, 170, 0.6);
+  box-shadow: 0 5px 20px rgba(255, 77, 148, 0.6);
   border-radius: 0;
   transition: box-shadow 0.3s ease;
 }
 .profil-img:hover {
-  box-shadow: 0 8px 30px rgba(249, 121, 170, 0.9);
+  box-shadow: 0 8px 30px rgba(255, 77, 148, 0.9);
 }
 
 #about, #contact {
-  background-color: var(--dark-bg);
-  color: var(--text-muted);
+  background-color: #1a1a2e;
+  color: #3d3941;
 }
 
 h1, h2, h5 {
-  color: var(--pink);
+  color: #ff77aa;
 }
 p, .lead {
-  color: var(--text-muted);
+  color: #615661;
 }
 
-/* Slider */
+
+/* nnn */
 .slider-fade {
   position: relative;
   width: 100%;
@@ -103,3 +104,5 @@ p, .lead {
   35%  { opacity: 0; }
   100% { opacity: 0; }
 }
+
+
