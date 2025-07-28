@@ -1,77 +1,74 @@
-/* Gradient background: soft pink to lavender */
-.bg-gradient-pinkblue,
-.hero-section {
-  background: linear-gradient(135deg, #f7c1e0, #cdb4f6);
-  color: #3d2b52;
+.bg-gradient-pinkblue {
+  background: linear-gradient(135deg, var(--pink), var(--pink-light));
+  color: var(--text-main); 
 }
 
-/* Navbar: dark soft purple */
+.hero-section {
+  background: linear-gradient(135deg, var(--pink), var(--pink-light));
+  color: var(--text-main);
+}
+
 .navbar-dark {
-  background: #2e1a47;
+  background: var(--dark-bg);
 }
 .navbar-dark .navbar-brand,
 .navbar-dark .nav-link {
-  color: #f9d6ea;
+  color: var(--pink);
   transition: color 0.3s ease;
 }
 .navbar-dark .nav-link:hover,
 .navbar-dark .nav-link.active {
-  color: #ffc0df;
+  color: var(--red);
 }
 
-/* Buttons: pink-outline with hover */
 .btn-outline-primary {
-  color: #ffaad4;
-  border-color: #ffaad4;
+  color: var(--pink);
+  border-color: var(--pink);
   transition: all 0.3s ease;
 }
 .btn-outline-primary:hover {
-  background-color: #ff91c1;
+  background-color: var(--red);
   color: #fff;
-  border-color: #ff91c1;
+  border-color: var(--red);
 }
 
-/* Card: lavender background */
 .card {
-  background-color: #f3e9fc;
-  color: #3d2b52;
+  background-color: var(--card-bg);
+  color: var(--text-main);
   border: none;
-  box-shadow: 0 4px 6px rgba(207, 145, 255, 0.3);
+  box-shadow: 0 4px 6px rgba(249, 121, 170, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 15px 25px rgba(207, 145, 255, 0.5);
+  box-shadow: 0 15px 25px rgba(249, 121, 170, 0.6);
 }
 
-/* Profile image: subtle shadow */
 .profil-img {
   width: 160px;
   height: auto;
   object-fit: contain;
-  box-shadow: 0 5px 20px rgba(255, 161, 216, 0.5);
-  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(249, 121, 170, 0.6);
+  border-radius: 0;
   transition: box-shadow 0.3s ease;
 }
 .profil-img:hover {
-  box-shadow: 0 8px 30px rgba(255, 161, 216, 0.8);
+  box-shadow: 0 8px 30px rgba(249, 121, 170, 0.9);
 }
 
-/* Sections */
 #about, #contact {
-  background-color: #fef6fb;
-  color: #5a4b68;
+  background-color: var(--dark-bg);
+  color: var(--text-muted);
 }
 
-/* Headings & Text */
 h1, h2, h5 {
-  color: #ce77c1;
+  color: var(--pink);
 }
 p, .lead {
-  color: #806f9b;
+  color: var(--text-muted);
 }
 
-/* Image Slider */
+/* Slider */
 .slider-fade {
   position: relative;
   width: 100%;
